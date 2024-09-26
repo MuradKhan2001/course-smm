@@ -7,7 +7,7 @@ import Aos from "aos";
 import "./stye.scss"
 
 const Home = () => {
-    const countdownDate = new Date('09/30/2024');
+    const countdownDate = new Date('10/2/2024');
     const [modal, setModal] = useState(false);
     const nodeRef = useRef(null);
     const [alert, setAlert] = useState(false);
@@ -271,7 +271,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, chek listlar)</div>
+                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -285,7 +285,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertificat</div>
+                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -299,7 +299,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Mehmon spikerla bilan offlayn uchrashuv</div>
+                                    <div className="text">Mehmon spikerlar bilan oflayn uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -340,7 +340,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">34 ta darslik</div>
+                                    <div className="text">55 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -354,7 +354,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, chek listlar)</div>
+                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -368,7 +368,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertificat</div>
+                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -382,7 +382,16 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Kuratorlar guruhi</div>
+                                    <div className="text">Kuratorlar tomonidan savollarga javob olish</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Kuratorlar tomonidan uyga vazifalar tekshirish
+                                    </div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -400,7 +409,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Yakuniy imtixon
+                                        Yakuniy imtihon
                                     </div>
                                 </div>
 
@@ -453,7 +462,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">34 ta darslik</div>
+                                    <div className="text">55 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -467,7 +476,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, chek listlar)</div>
+                                    <div className="text">Qo’shimcha materiallar ( Guide, check listlar)</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -481,7 +490,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertificat</div>
+                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -495,7 +504,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Mehmon spikerlar bilan offline uchrashuv</div>
+                                    <div className="text">Mehmon spikerlar bilan ofline uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -512,7 +521,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Uyga vazifalar tekshirish
+                                        Kuratorlar tomonidan uyga vazifalar tekshirish
                                     </div>
                                 </div>
 
@@ -521,7 +530,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Kursdan keyin qo’lab quvvatlash
+                                        Kursdan keyin qo’llab quvvatlash
                                     </div>
                                 </div>
 
@@ -530,7 +539,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        5 ta offline uchrashuv
+                                        Munira Raxmatova va Shaxnoza Kurbanova bilan 5 ta ofline uchrashuv
                                     </div>
                                 </div>
 
@@ -539,7 +548,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Yakuniy imtixon
+                                        Yakuniy imtihon
                                     </div>
                                 </div>
 
@@ -692,7 +701,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, chek listlar)</div>
+                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -706,7 +715,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertificat</div>
+                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -720,7 +729,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Mehmon spikerla bilan offlayn uchrashuv</div>
+                                    <div className="text">Mehmon spikerlar bilan oflayn uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -761,7 +770,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">34 ta darslik</div>
+                                    <div className="text">55 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -775,7 +784,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, chek listlar)</div>
+                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -789,7 +798,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertificat</div>
+                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -803,7 +812,16 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Kuratorlar guruhi</div>
+                                    <div className="text">Kuratorlar tomonidan savollarga javob olish</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Kuratorlar tomonidan uyga vazifalar tekshirish
+                                    </div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -821,7 +839,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Yakuniy imtixon
+                                        Yakuniy imtihon
                                     </div>
                                 </div>
 
@@ -874,7 +892,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">34 ta darslik</div>
+                                    <div className="text">55 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -888,7 +906,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, chek listlar)</div>
+                                    <div className="text">Qo’shimcha materiallar ( Guide, check listlar)</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -902,7 +920,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertificat</div>
+                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -916,7 +934,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Mehmon spikerlar bilan offline uchrashuv</div>
+                                    <div className="text">Mehmon spikerlar bilan ofline uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -933,7 +951,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Uyga vazifalar tekshirish
+                                        Kuratorlar tomonidan uyga vazifalar tekshirish
                                     </div>
                                 </div>
 
@@ -942,7 +960,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Kursdan keyin qo’lab quvvatlash
+                                        Kursdan keyin qo’llab quvvatlash
                                     </div>
                                 </div>
 
@@ -951,7 +969,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        5 ta offline uchrashuv
+                                        Munira Raxmatova va Shaxnoza Kurbanova bilan 5 ta ofline uchrashuv
                                     </div>
                                 </div>
 
@@ -960,7 +978,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Yakuniy imtixon
+                                        Yakuniy imtihon
                                     </div>
                                 </div>
 
@@ -1046,8 +1064,6 @@ const Home = () => {
                         </div>
 
                     </div>
-
-
                 </div>
             </div>
         </div>
