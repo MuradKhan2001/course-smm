@@ -7,7 +7,7 @@ import Aos from "aos";
 import "./stye.scss"
 
 const Home = () => {
-    const countdownDate = new Date('10/2/2024');
+    const countdownDate = new Date('2024-10-23');
     const [modal, setModal] = useState(false);
     const nodeRef = useRef(null);
     const [alert, setAlert] = useState(false);
@@ -178,7 +178,7 @@ const Home = () => {
                                 >
                                     <MenuItem value="standart">STANDART</MenuItem>
                                     <MenuItem value="premium">PREMIUM</MenuItem>
-                                    <MenuItem value="gold">GOLD</MenuItem>
+                                    <MenuItem value="gold">VIP</MenuItem>
                                 </Select>
                             </FormControl>
                         </div>
@@ -250,28 +250,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">22 ta modul</div>
+                                    <div className="text">21 ta modul</div>
                                 </div>
 
                                 <div className="tarif-item">
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">34 ta darslik</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Umumiy chatga gruppa</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
+                                    <div className="text">40 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -279,13 +265,6 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">Darsdan 3 oy foydalanish imkoniyati</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -306,7 +285,35 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Kurs davomiyligi 1.5 oy</div>
+                                    <div className="text">Yakuniy imtixon</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Umumiy chatga gruppa</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Bitiruv kecha</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Sertifikat</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Kurs davomiyligi 2 oy</div>
                                 </div>
 
                                 <div className="price1">
@@ -319,6 +326,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="tarif">
                             <div className="sloy">
                                 <div className="title-tarif">
@@ -333,28 +341,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">22 ta modul</div>
+                                    <div className="text">31 ta modul</div>
                                 </div>
 
                                 <div className="tarif-item">
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">55 ta darslik</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Umumiy chatga gruppa</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
+                                    <div className="text">60 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -368,7 +362,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertifikat</div>
+                                    <div className="text">Mehmon spikerlar</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Bonus darsliklar + Qo'shimcha materiallar</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -382,7 +383,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Kuratorlar tomonidan savollarga javob olish</div>
+                                    <div className="text">Mehmon spikerlar bilan oflayn uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -390,7 +391,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Kuratorlar tomonidan uyga vazifalar tekshirish
+                                        Munira Raxmatova bilan individual Offline uchrashuv (razbor)
                                     </div>
                                 </div>
 
@@ -399,7 +400,25 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Munira Raxmatova va Shaxnoza Kurbanova bilan 3 ta online 2 ta
+                                        Vazifalar tekshirilishi hamda kurator tomonidan individual feedbacklar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Kurator tarafidan qo'shimcha video chatlar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Munira Raxmatova bilan 2 ta online 3 ta
                                         ofline uchrashuv
                                     </div>
                                 </div>
@@ -417,6 +436,13 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Umumiy chatga gruppa</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
                                         Bitiruv oqshomi
                                     </div>
@@ -426,8 +452,15 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Sertifikat</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
-                                        Kurs davomiyligi 2 oy
+                                        Kurs davomiyligi 3 oy
                                     </div>
                                 </div>
 
@@ -444,39 +477,25 @@ const Home = () => {
                         <div className="tarif">
                             <div className="sloy">
                                 <div className="title-tarif">
-                                    GOLD
+                                    VIP
                                 </div>
 
                                 <div className="des-tarif">
-                                    Tarif ichiga nimalar kiradi:
+                                Tarif ichiga nimalar kiradi:
                                 </div>
 
                                 <div className="tarif-item">
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">22 ta modul</div>
+                                    <div className="text">31 ta modul</div>
                                 </div>
 
                                 <div className="tarif-item">
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">55 ta darslik</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Umumiy chatga gruppa</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, check listlar)</div>
+                                    <div className="text">60 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -490,7 +509,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertifikat</div>
+                                    <div className="text">Mehmon spikerlar</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Bonus darsliklar + Qo'shimcha materiallar</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -504,7 +530,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Mehmon spikerlar bilan ofline uchrashuv</div>
+                                    <div className="text">Mehmon spikerlar bilan oflayn uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -512,16 +538,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Munira Raxmatova va Shaxnoza Kurbanova tomonidan savollarga javob olish
-                                    </div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">
-                                        Kuratorlar tomonidan uyga vazifalar tekshirish
+                                        Munira Raxmatova bilan individual Offline uchrashuv (razbor)
                                     </div>
                                 </div>
 
@@ -530,7 +547,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Kursdan keyin qo’llab quvvatlash
+                                        Guruhlar ichida workshoplar + kurator bilan
                                     </div>
                                 </div>
 
@@ -539,7 +556,26 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Munira Raxmatova va Shaxnoza Kurbanova bilan 5 ta ofline uchrashuv
+                                        Munira Raxmatova tomonidan vazifalar
+                                        tekshirilishi hamda individual feadbacklar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Munira Raxmatova Tomonidan video chatlar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Munira Raxmatova bilan 5 ta ofline uchrashuv
                                     </div>
                                 </div>
 
@@ -556,6 +592,13 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Umumiy chatga gruppa</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
                                         Bitiruv oqshomi
                                     </div>
@@ -565,8 +608,15 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Sertifikat</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
-                                        Kurs davomiyligi 2 oy
+                                        Kurs davomiyligi 3 oy
                                     </div>
                                 </div>
 
@@ -628,7 +678,6 @@ const Home = () => {
                         </div>
 
                     </div>
-
                 </div>
             </div>
 
@@ -680,28 +729,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">22 ta modul</div>
+                                    <div className="text">21 ta modul</div>
                                 </div>
 
                                 <div className="tarif-item">
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">34 ta darslik</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Umumiy chatga gruppa</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
+                                    <div className="text">40 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -709,13 +744,6 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">Darsdan 3 oy foydalanish imkoniyati</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Sertifikat</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -736,7 +764,35 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Kurs davomiyligi 1.5 oy</div>
+                                    <div className="text">Yakuniy imtixon</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Umumiy chatga gruppa</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Bitiruv kecha</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Sertifikat</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Kurs davomiyligi 2 oy</div>
                                 </div>
 
                                 <div className="price1">
@@ -749,6 +805,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+
                         <div className="tarif">
                             <div className="sloy">
                                 <div className="title-tarif">
@@ -763,28 +820,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">22 ta modul</div>
+                                    <div className="text">31 ta modul</div>
                                 </div>
 
                                 <div className="tarif-item">
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">55 ta darslik</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Umumiy chatga gruppa</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, Check listlar)</div>
+                                    <div className="text">60 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -798,7 +841,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertifikat</div>
+                                    <div className="text">Mehmon spikerlar</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Bonus darsliklar + Qo'shimcha materiallar</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -812,7 +862,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Kuratorlar tomonidan savollarga javob olish</div>
+                                    <div className="text">Mehmon spikerlar bilan oflayn uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -820,7 +870,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Kuratorlar tomonidan uyga vazifalar tekshirish
+                                        Munira Raxmatova bilan individual Offline uchrashuv (razbor)
                                     </div>
                                 </div>
 
@@ -829,7 +879,25 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Munira Raxmatova va Shaxnoza Kurbanova bilan 3 ta online 2 ta
+                                        Vazifalar tekshirilishi hamda kurator tomonidan individual feedbacklar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Kurator tarafidan qo'shimcha video chatlar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Munira Raxmatova bilan 2 ta online 3 ta
                                         ofline uchrashuv
                                     </div>
                                 </div>
@@ -847,6 +915,13 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Umumiy chatga gruppa</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
                                         Bitiruv oqshomi
                                     </div>
@@ -856,8 +931,15 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Sertifikat</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
-                                        Kurs davomiyligi 2 oy
+                                        Kurs davomiyligi 3 oy
                                     </div>
                                 </div>
 
@@ -874,7 +956,7 @@ const Home = () => {
                         <div className="tarif">
                             <div className="sloy">
                                 <div className="title-tarif">
-                                    GOLD
+                                    VIP
                                 </div>
 
                                 <div className="des-tarif">
@@ -885,28 +967,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">22 ta modul</div>
+                                    <div className="text">31 ta modul</div>
                                 </div>
 
                                 <div className="tarif-item">
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">55 ta darslik</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Umumiy chatga gruppa</div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">Qo’shimcha materiallar ( Guide, check listlar)</div>
+                                    <div className="text">60 ta darslik</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -920,7 +988,14 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Sertifikat</div>
+                                    <div className="text">Mehmon spikerlar</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">Bonus darsliklar + Qo'shimcha materiallar</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -934,7 +1009,7 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
-                                    <div className="text">Mehmon spikerlar bilan ofline uchrashuv</div>
+                                    <div className="text">Mehmon spikerlar bilan oflayn uchrashuv</div>
                                 </div>
 
                                 <div className="tarif-item">
@@ -942,16 +1017,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Munira Raxmatova va Shaxnoza Kurbanova tomonidan savollarga javob olish
-                                    </div>
-                                </div>
-
-                                <div className="tarif-item">
-                                    <div className="icon">
-                                        <img src="./images/check.png" alt=""/>
-                                    </div>
-                                    <div className="text">
-                                        Kuratorlar tomonidan uyga vazifalar tekshirish
+                                        Munira Raxmatova bilan individual Offline uchrashuv (razbor)
                                     </div>
                                 </div>
 
@@ -960,7 +1026,7 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Kursdan keyin qo’llab quvvatlash
+                                        Guruhlar ichida workshoplar + kurator bilan
                                     </div>
                                 </div>
 
@@ -969,7 +1035,26 @@ const Home = () => {
                                         <img src="./images/check.png" alt=""/>
                                     </div>
                                     <div className="text">
-                                        Munira Raxmatova va Shaxnoza Kurbanova bilan 5 ta ofline uchrashuv
+                                        Munira Raxmatova tomonidan vazifalar
+                                        tekshirilishi hamda individual feadbacklar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Munira Raxmatova Tomonidan video chatlar
+                                    </div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
+                                    <div className="text">
+                                        Munira Raxmatova bilan 5 ta ofline uchrashuv
                                     </div>
                                 </div>
 
@@ -986,6 +1071,13 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Umumiy chatga gruppa</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
                                         Bitiruv oqshomi
                                     </div>
@@ -995,8 +1087,15 @@ const Home = () => {
                                     <div className="icon">
                                         <img src="./images/check.png" alt=""/>
                                     </div>
+                                    <div className="text">Sertifikat</div>
+                                </div>
+
+                                <div className="tarif-item">
+                                    <div className="icon">
+                                        <img src="./images/check.png" alt=""/>
+                                    </div>
                                     <div className="text">
-                                        Kurs davomiyligi 2 oy
+                                        Kurs davomiyligi 3 oy
                                     </div>
                                 </div>
 
