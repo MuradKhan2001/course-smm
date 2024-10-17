@@ -7,7 +7,7 @@ import Aos from "aos";
 import "./stye.scss"
 
 const Home = () => {
-    const countdownDate = new Date('2024-10-23');
+    const countdownDate = new Date('2024-10-24');
     const [modal, setModal] = useState(false);
     const nodeRef = useRef(null);
     const [alert, setAlert] = useState(false);
@@ -63,7 +63,7 @@ const Home = () => {
     });
 
     useEffect(() => {
-        countdownDate.setHours(20, 30, 0, 0);
+
         Aos.init({duration: 1000});
 
         const interval = setInterval(() => setNewTime(), 1000);
