@@ -50,7 +50,7 @@ const Home = () => {
                 Tarif: values.tarif
             };
             setModal(false);
-            axios.post(`https://sheet.best/api/sheets/ef35e994-542c-4ba2-8a0a-9427ac3c0099`, lead)
+            axios.post(`https://api.sheetbest.com/sheets/27c50558-a521-4d3e-b97e-f7e42c2cae42`, lead)
                 .then((response) => {
                     setAlert(true);
                     setTimeout(() => {
